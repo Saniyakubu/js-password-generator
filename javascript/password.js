@@ -61,6 +61,7 @@ view.addEventListener("click", function () {
   localStorage.getItem("me");
   const open = JSON.parse(localStorage.getItem("me"));
   console.log(open);
+
   list.innerHTML += " " + open.website;
   li.innerHTML += " " + open.userName;
   thirth.innerHTML += " " + open.password;
