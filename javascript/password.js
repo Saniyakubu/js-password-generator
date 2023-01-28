@@ -65,32 +65,3 @@ view.addEventListener("click", function () {
   li.innerHTML += " " + open.userName;
   thirth.innerHTML += " " + open.password;
 });
-
-/* copyEl.addEventListener("click", function () {
-  copyPassword();
-  if (input.value) {
-    message.classList.add("active");
-    message.innerHTML = `${input.value} password copied`;
-    setTimeout(() => {
-      message.classList.remove("active");
-    }, 1500);
-  }
-});
-function createPassword() {
-  const value = "ABCDEFGHIJKMLNOPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz";
-  const passwordLength = 6;
-  let password = "";
-  for (let i = 0; i < passwordLength; i++) {
-    const randomNumber = Math.floor(Math.random() * value.length);
-    console.log(randomNumber);
-    password += value.substring(randomNumber, randomNumber + 1);
-    console.log(password);
-    input.value = password;
-  }
-}
-
-function copyPassword() {
-  input.select();
-  input.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(input.value);
-} */
